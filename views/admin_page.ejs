@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title>Admin Page</title>
+    <link rel='stylesheet' href='/stylesheets/admin_page.css' />
+    <script src="javascripts/admin_page.js"></script>
+</head>
+
+<body>
+<h1>Welcome, <%= title %></h1>
+<button id="btn" onClick="showForm()">Add A product</button>
+
+<form method="POST">
+    <div id="show_form">
+        <label for="image">Image: </label>
+        <input type="image" alt="product" id="image" required/></br>
+
+        <label for="description">Description: </label>
+        <input type="text" id="description" /></br>
+
+        <label for="price">Price: </label>
+        <input type="number" step="0.01" id="price" /></br>
+
+        <input type="submit" id="add-product"></br>
+        <button onClick="cancelForm()">Cancel</button>
+
+    </div>
+</form>
+
+
+<form action=' ' method="GET">
+    <div id="product-content">
+
+    </div>
+
+</form>
+
+</body>
+
+</html>

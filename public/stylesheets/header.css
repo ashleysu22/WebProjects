@@ -1,0 +1,57 @@
+#header {
+    color:#800000;
+    background:#ff8c00;
+    height:20%;
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#header h1{
+    margin:0;
+    padding-top:20px;
+    padding-left:20px;
+}
+
+#header > #admin_login{
+    outline:none;
+    background: maroon;
+    color:#ffffff;
+    font-size:20px;
+    text-decoration:none;
+    border-radius:15px;
+    padding: 8px;
+    margin:0 2% 3% 0;
+    float:right;
+    position:relative;
+}
+
+#header > #admin_login:hover{
+    color:#ffdab9;
+}
+
+#menu{
+    margin:20px;
+    padding-left:0;
+    padding-bottom:7px;
+    text-align: -webkit-left;
+    font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#menu a{
+    display:inline;
+    padding:8px;
+    text-decoration: none;
+    color:#800000;
+}
+
+#menu a:visited{
+    color:#800000;
+}
+
+#menu a:hover{
+    background: #ffdab9;
+    color: #ffa500;
+}

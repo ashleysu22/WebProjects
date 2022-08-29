@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/login.css' />
+    <script src="javascripts/login.js"></script>
+</head>
+
+<body onload="checkForErrors(<%= name_is_correct , password_is_correct%>)">
+  <h1>Welcome to Admin Page.</h1>
+  <h3>Please fill in to login.</h3>
+  <form action='admin_page' method="POST">
+      <div id="form-content">
+          <label for="name">Username:</label>
+          <input type="text" name="name" id="name" required /></br>
+
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" required /></br>
+
+          <input type="submit" id="login-submit" /></br>
+      </div>
+  </form>
+</body>
+</html>

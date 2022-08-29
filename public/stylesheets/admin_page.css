@@ -1,0 +1,16 @@
+body, h1{
+    margin:3%;
+}
+
+button{
+    float:right;
+}
+
+form > #show_form {
+    margin:6%;
+    display:none;
+}
+
+#show_form > input{
+    margin:1%;
+}
